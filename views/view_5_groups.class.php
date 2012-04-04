@@ -46,8 +46,8 @@ class View_Groups extends View
 					</form></p>
 
 					<p>Email members<br />
-					<a href="?call=email&groupid=<?php echo $this->_group->id; ?>&method=public" class="hidden-frame" onclick="return confirm('Sending a public email will allow group members to see each other\'s email addresses.  Are you sure?');">publicly</a> or
-					<a href="?call=email&groupid=<?php echo $this->_group->id; ?>" class="hidden-frame">via BCC</a> </p>
+					<a href="?call=email&groupid=<?php echo $this->_group->id; ?>&method=public" onclick="return confirm('Sending a public email will allow group members to see each other\'s email addresses.  Are you sure?');">publicly</a> or
+					<a href="?call=email&groupid=<?php echo $this->_group->id; ?>">via BCC</a> </p>
 
 				</div>
 

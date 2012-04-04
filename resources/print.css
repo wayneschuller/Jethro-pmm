@@ -1,0 +1,50 @@
+/* Overall */
+html, body, textarea, td, th {
+	font-family: sans-serif;
+	font-size: small;
+}
+
+/* hide tab nav */
+.tabbernav {
+	 display:none;
+}
+
+/* Layout and Spacing */
+body {
+	width: 100%;
+	margin: 1px;
+}
+#header {
+	border: 2px solid #888;
+	width: 99%;
+}
+html body h1, html body div#header h1 {
+	color: #888;
+	margin: 0px;
+	display: block;
+	padding: 5px;
+	border: 0px;
+	font-size: 10pt;
+	text-align: center;
+}
+h2 {
+	margin: 11pt 0 8pt 0;
+}
+#account-details {
+	display: none
+}
+html body #body {
+	margin: 1px;
+	padding: 0px;
+}
+ul#nav {
+	display: none;
+}
+.no-print {
+	display: none;
+}
+a, a:active, a:hover, a:visited {
+	font-weight: normal;
+	text-decoration: none;
+}
+
